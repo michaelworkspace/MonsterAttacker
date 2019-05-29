@@ -5,8 +5,6 @@ import os
 game_running = True
 round_list = []
 
-# test
-
 
 def game_over(winner, loser):
 
