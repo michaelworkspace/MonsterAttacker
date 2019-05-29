@@ -69,6 +69,7 @@ while game_running:
             print(f"You're back to {player['health']} HP now \n")
 
             # Monster turn to attack
+
             random_damage = monster_attack(
                 monster['attack_min'], monster['attack_max'])
             print(
